@@ -1,0 +1,1157 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_title: 60px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        top: 0;
+
+        width: 64px;
+        height: 64px;
+    }
+
+    .swiper-button-prev
+    {
+        right: 76px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0 32px;
+    }
+
+
+    header .logo img
+    {
+        height: 64px;
+    }
+
+
+    header .menu
+    {
+        margin-left: 80px;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 32px;
+    }
+
+
+    header .langs > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    header .callback_btn
+    {
+        margin-left: 40px;
+    }
+
+
+    header .phone
+    {
+        font-size: 19px;
+
+        margin-left: 40px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .sub_title
+    {
+        font-size: 32px;
+
+        margin-top: 28px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        height: 76px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+
+    .first_section .video_link
+    {
+        bottom: 200px;
+
+        margin-right: -480px;
+    }
+
+
+    .first_section .scroll_down
+    {
+        bottom: 40px;
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us
+    {
+        padding: 100px 0 120px;
+    }
+
+
+    .about_us .block_head
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .about_us .data
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .about_us .data .title
+    {
+        font-size: 30px;
+
+        margin-bottom: 36px;
+    }
+
+
+    .about_us .items
+    {
+        width: 1000px;
+        margin-top: 100px;
+    }
+
+
+    .about_us .items .row
+    {
+        margin-bottom: -60px;
+        margin-left: -120px;
+    }
+
+    .about_us .items .row > *
+    {
+        width: calc(50% - 120px);
+        margin-bottom: 60px;
+        margin-left: 120px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .swiper
+    {
+        padding: 0 60px;
+    }
+
+
+    .services .swiper-button-prev
+    {
+        left: -20px;
+    }
+
+    .services .swiper-button-next
+    {
+        right: -20px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 28px;
+
+        padding: 28px;
+    }
+
+
+    .services .all_link
+    {
+        line-height: 100%;
+
+        margin-top: 60px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: 480px;
+    }
+
+
+    .contacts_info .info
+    {
+        font-size: 22px;
+    }
+
+
+    .contacts_info .feedback
+    {
+        width: 600px;
+        margin-top: 24px;
+    }
+
+
+    .contacts_info .map
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .title
+    {
+        font-size: 34px;
+
+        margin-bottom: 40px;
+    }
+
+
+
+    /*----------------------------
+        Completed project info
+    ----------------------------*/
+    .completed_project_info
+    {
+        padding-top: 20px;
+    }
+
+
+    .completed_project_info .data
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .completed_project_info .features
+    {
+        font-size: 18px;
+        line-height: 100%;
+
+        width: 600px;
+        margin-top: 60px;
+    }
+
+    .completed_project_info .features > * + *
+    {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+
+    .completed_project_info .desc
+    {
+        margin-top: 60px;
+    }
+
+
+    .completed_project_info .image
+    {
+        width: calc(50% + 6px);
+        height: auto;
+        margin-right: -30px;
+    }
+
+
+    .completed_project_info .images
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects.bg,
+    .projects.bg2
+    {
+        padding: 100px 0;
+    }
+
+
+    .projects.bg2 .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .projects .swiper
+    {
+        padding: 0 92px;
+    }
+
+
+    .projects .swiper-button-next,
+    .projects .swiper-button-prev
+    {
+        margin-top: -32px;
+    }
+
+
+    .projects .row
+    {
+        margin-bottom: -60px;
+    }
+
+    .projects .row > *
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .projects .project .name
+    {
+        font-size: 26px;
+        line-height: 30px;
+
+        width: 260px;
+        margin-top: 28px;
+    }
+
+
+    .projects .all_link
+    {
+        line-height: 100%;
+
+        margin-top: 60px;
+    }
+
+
+
+    /*------------------
+        Secvice info
+    ------------------*/
+    .secvice_info
+    {
+        padding-bottom: 48px;
+    }
+
+
+    .secvice_info .cont
+    {
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+
+    .secvice_info .data
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .secvice_info .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .secvice_info .image
+    {
+        width: 50%;
+        height: auto;
+        margin-right: -30px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 100px 0;
+    }
+
+
+    .advantages:before
+    {
+        top: -124px;
+
+        margin-left: -720px;
+    }
+
+
+    .advantages .block_head
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .advantages .item .number
+    {
+        font-size: 104px;
+        line-height: 100%;
+
+        top: 40px;
+        left: 40px;
+    }
+
+
+    .advantages .item .name
+    {
+        padding: 60px 40px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps
+    {
+        padding-top: 0;
+    }
+
+
+    .steps .bg_before
+    {
+        margin-bottom: 1px;
+        margin-left: -680px;
+
+        transform: scale(.8);
+    }
+
+
+    .steps .bg
+    {
+        top: -16px;
+        left: -100px;
+
+        transform: scale(.85);
+    }
+
+
+    .steps .row
+    {
+        padding: 0;
+    }
+
+
+    .steps .row > *:nth-child(10),
+    .steps .row > *:nth-child(11),
+    .steps .row > *:nth-child(12)
+    {
+        margin-top: 38px;
+    }
+
+    .steps .row > *:nth-child(13),
+    .steps .row > *:nth-child(14),
+    .steps .row > *:nth-child(15)
+    {
+        margin-top: 80px;
+    }
+
+    .steps .row > *:nth-child(22),
+    .steps .row > *:nth-child(23)
+    {
+        margin-top: 60px;
+    }
+
+
+    .steps .step
+    {
+        font-size: 18px;
+    }
+
+
+    .steps .step .number
+    {
+        line-height: 98px;
+
+        width: 100px;
+        height: 100px;
+        margin-bottom: 24px;
+
+        background: var(--bg);
+    }
+
+
+
+    /*------------------
+        Payment info
+    ------------------*/
+    .payment_info
+    {
+        padding: 100px 0;
+    }
+
+
+    .payment_info .block_head
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .payment_info .row
+    {
+        margin-bottom: -80px;
+        margin-left: -80px;
+        padding-right: 160px;
+    }
+
+    .payment_info .row > *
+    {
+        width: calc(50% - 80px);
+        margin-bottom: 80px;
+        margin-left: 80px;
+    }
+
+
+    .payment_info .item .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 40px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .block_head
+    {
+        width: 500px;
+    }
+
+
+    .FAQ .accordion
+    {
+        width: 600px;
+        margin-right: 80px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .reviews .review .title
+    {
+        font-size: 36px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .reviews .review .author
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*----------------
+        About head
+    ----------------*/
+    .about_head
+    {
+        margin-bottom: 120px;
+        padding-top: 220px;
+        padding-bottom: 120px;
+    }
+
+
+    .about_head .photo
+    {
+        width: calc(50% - 30px);
+        height: 600px;
+    }
+
+
+    .about_head .data
+    {
+        width: calc(50% - 30px);
+        margin-left: auto;
+    }
+
+
+    .about_head .data .desc,
+    .about_head .data .desc > * + *
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        margin-bottom: 140px;
+    }
+
+
+    .about_info .data
+    {
+        width: 600px;
+        margin-left: 48px;
+    }
+
+
+    .about_info .block_head
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .about_info .text_block > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-------------
+        Reasons
+    -------------*/
+    .reasons
+    {
+        margin-bottom: 160px;
+        padding: 120px 0;
+    }
+
+
+    .reasons .block_head
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .reasons .row
+    {
+        width: 900px;
+        margin-bottom: -64px;
+    }
+
+    .reasons .row > *
+    {
+        width: calc(50% - 30px);
+        margin-bottom: 64px;
+    }
+
+
+    .reasons .item .number
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .reasons .img
+    {
+        top: 240px;
+        right: 0;
+
+        width: calc(100% - 960px);
+        height: auto;
+        margin-right: 0;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits
+    {
+        margin-bottom: 120px;
+    }
+
+
+    .benefits .block_head
+    {
+        width: calc(50% - 30px);
+    }
+
+
+    .benefits .text_block
+    {
+        width: calc(50% - 30px);
+        margin-top: 0;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners
+    {
+        padding: 0;
+    }
+
+
+    .partners .block_head
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .partners .item
+    {
+        height: 120px;
+        padding: 20px;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs
+    {
+        padding: 100px 0 120px;
+    }
+
+
+    .certs .block_head
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .certs .swiper-button-prev
+    {
+        margin-right: -56px;
+    }
+
+    .certs .swiper-button-next
+    {
+        margin-left: -56px;
+    }
+
+
+    .certs .cert
+    {
+        height: 480px;
+        padding: 19px 23px;
+    }
+
+
+    .certs .cert .action
+    {
+        font-size: 14px;
+
+        top: 60px;
+    }
+
+
+    .certs .cert .icon
+    {
+        top: 24px;
+        right: 24px;
+
+        height: 80px;
+    }
+
+
+    .certs .cert .name
+    {
+        font-size: 19px;
+
+        width: 224px;
+    }
+
+
+
+    /*------------------
+        Project head
+    ------------------*/
+    .project_head .cont
+    {
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+
+
+    .project_head .data
+    {
+        width: 640px;
+    }
+
+
+    .project_head .get_presentation
+    {
+        width: 600px;
+    }
+
+
+    .project_head .get_presentation .title
+    {
+        font-size: 30px;
+    }
+
+
+    .project_head .get_presentation .btn
+    {
+        width: 400px;
+        height: 88px;
+        margin-top: 56px;
+    }
+
+
+
+    /*------------------
+        Project desc
+    ------------------*/
+    .project_desc .data
+    {
+        width: calc(100% - 640px);
+    }
+
+
+    .project_desc .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .project_desc .features
+    {
+        width: 540px;
+        padding: 100px;
+    }
+
+
+    .project_desc .features > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+    .project_desc .features .label
+    {
+        font-size: 22px;
+        line-height: 100%;
+    }
+
+
+    .project_desc .features .val
+    {
+        font-size: 32px;
+
+        margin-top: 8px;
+    }
+
+
+
+    /*-------------
+        Layouts
+    -------------*/
+    .layouts
+    {
+        padding-bottom: 40px;
+    }
+
+
+    .layouts .swiper-button-next,
+    .layouts .swiper-button-prev
+    {
+        margin: 0;
+    }
+
+
+    .layouts .image
+    {
+        width: calc(50% - 30px);
+        height: 552px;
+    }
+
+
+    .layouts .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .layouts .text_block
+    {
+        width: calc(50% - 30px);
+    }
+
+
+
+    /*--------------------
+        Infrastructure
+    --------------------*/
+    .infrastructure .block_head
+    {
+        width: 616px;
+        margin: 0 0 -28px;
+    }
+
+
+    .infrastructure .row
+    {
+        margin-bottom: -60px;
+    }
+
+    .infrastructure .row > *
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .infrastructure .item
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-----------------
+        Objects map
+    -----------------*/
+    .objects_map
+    {
+        padding: 100px 0;
+    }
+
+
+    .objects_map .map
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------------------
+        Benefits acquisitions
+    ---------------------------*/
+    .benefits_acquisitions
+    {
+        padding: 100px 0;
+    }
+
+
+    .benefits_acquisitions .col .title
+    {
+        font-size: 20px;
+
+        width: 320px;
+        margin-bottom: 60px;
+    }
+
+
+    .benefits_acquisitions .items
+    {
+        padding-right: 132px;
+    }
+
+    .benefits_acquisitions .col + .col .items
+    {
+        padding-left: 132px;
+    }
+
+
+    .benefits_acquisitions .items > * + *
+    {
+        margin-top: 52px;
+    }
+
+
+    .benefits_acquisitions .items .name,
+    .benefits_acquisitions .items .desc
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*---------------------
+        Design projects
+    ---------------------*/
+    .design_projects
+    {
+        padding-top: 24px;
+    }
+
+
+    .design_projects .swiper-button-next,
+    .design_projects .swiper-button-prev
+    {
+        bottom: 0;
+    }
+
+    .design_projects .swiper-button-next
+    {
+        left: 80px;
+    }
+
+
+    .design_projects .row
+    {
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+
+    .design_projects .data
+    {
+        width: calc(50% - 30px);
+        padding-bottom: 96px;
+    }
+
+
+    .design_projects .block_head
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .design_projects .image
+    {
+        width: calc(50% - 30px);
+        height: auto;
+    }
+
+
+
+    /*-------------------
+        Feedback form
+    -------------------*/
+    .feedback_form
+    {
+        padding: 100px 0;
+    }
+
+
+    .feedback_form .block_title
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .feedback_form .form
+    {
+        width: 600px;
+    }
+
+
+
+    /*----------------------------
+        Get presentation block
+    ----------------------------*/
+    .get_presentation_block
+    {
+        padding: 100px 0;
+    }
+
+
+    .get_presentation_block .title
+    {
+        font-size: 30px;
+
+        width: 620px;
+    }
+
+
+    .get_presentation_block .btn
+    {
+        width: 400px;
+        height: 88px;
+        margin-top: 56px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont + .cont
+    {
+        margin-top: 80px;
+    }
+
+
+    footer .col_right
+    {
+        width: 432px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #thanks_modal .bg
+    {
+        display: none;
+    }
+
+
+    #thanks_modal .img
+    {
+        right: -40px;
+    }
+}

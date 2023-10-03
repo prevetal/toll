@@ -1,0 +1,666 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 30px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        min-height: 56px;
+        padding: 15px 51px 15px 15px;
+    }
+
+
+    .accordion_item .head .title br
+    {
+        display: none;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 0 15px 15px 15px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .logo img
+    {
+        height: 40px;
+    }
+
+
+    .mob_header .phone
+    {
+        font-size: 15px;
+    }
+
+
+    .mob_header .mob_menu_btn
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .block_head .title br
+    {
+        display: none;
+    }
+
+
+    .block_head .sub_title
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        width: calc(100% - 88px);
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us
+    {
+        padding: 60px 0;
+    }
+
+
+    .about_us .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .about_us .data .title
+    {
+        font-size: 18px;
+    }
+
+
+    .about_us .items
+    {
+        margin-top: 40px;
+    }
+
+
+    .about_us .items .item .number
+    {
+        font-size: 36px;
+        line-height: 72px;
+
+        width: 72px;
+        height: 72px;
+    }
+
+    .about_us .items .item .number + *
+    {
+        width: calc(100% - 88px);
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+
+    .services .swiper-slide
+    {
+        width: 300px;
+    }
+
+
+    .services .all_link
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects.bg,
+    .projects.bg2
+    {
+        padding: 60px 0;
+    }
+
+
+    .projects.bg2 .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .projects .project .name
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        margin-top: 16px;
+    }
+
+
+    .projects .all_link
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*------------------
+        Secvice info
+    ------------------*/
+    .secvice_info .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 60px 0;
+    }
+
+
+    .advantages .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .advantages .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .advantages .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .advantages .item .number
+    {
+        font-size: 60px;
+
+        top: 12px;
+        left: 12px;
+    }
+
+
+    .advantages .item .name
+    {
+        padding: 16px 12px;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*------------------
+        Payment info
+    ------------------*/
+    .payment_info
+    {
+        padding: 60px 0;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .review .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*----------------
+        About head
+    ----------------*/
+    .about_head
+    {
+        margin-bottom: 60px;
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+
+    /*-------------
+        Reasons
+    -------------*/
+    .reasons
+    {
+        margin-bottom: 60px;
+        padding: 60px 0;
+    }
+
+
+    .reasons .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs
+    {
+        padding: 60px 0;
+    }
+
+
+    .certs .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+
+    /*------------------
+        Project head
+    ------------------*/
+    .project_head .cont
+    {
+        padding-top: 124px;
+        padding-bottom: 60px;
+    }
+
+
+    .project_head .get_presentation
+    {
+        margin-top: 68px;
+    }
+
+
+    .project_head .get_presentation .title
+    {
+        font-size: 18px;
+    }
+
+
+    .project_head .get_presentation .btn
+    {
+        width: 268px;
+        height: 56px;
+        margin-top: 24px;
+    }
+
+
+
+    /*------------------
+        Project desc
+    ------------------*/
+    .project_desc .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .project_desc .features
+    {
+        margin-top: 28px;
+        padding: 27px;
+    }
+
+
+    .project_desc .features > *
+    {
+        width: 100%;
+    }
+
+    .project_desc .features > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------
+        Layouts
+    -------------*/
+    .layouts .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*--------------------
+        Infrastructure
+    --------------------*/
+    .infrastructure .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .infrastructure .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .infrastructure .item
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-----------------
+        Objects map
+    -----------------*/
+    .objects_map
+    {
+        height: 450px;
+        padding: 60px 0;
+    }
+
+
+
+    /*---------------------------
+        Benefits acquisitions
+    ---------------------------*/
+    .benefits_acquisitions
+    {
+        padding: 60px 0;
+    }
+
+
+    .benefits_acquisitions .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .benefits_acquisitions .col .title,
+    .benefits_acquisitions .col + .col .title
+    {
+        font-size: 18px;
+
+        padding-bottom: 11px;
+    }
+
+
+    .benefits_acquisitions .items
+    {
+        padding-right: 0;
+    }
+
+    .benefits_acquisitions .col + .col .items
+    {
+        padding-left: 0;
+    }
+
+    .benefits_acquisitions .items > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .benefits_acquisitions .items .name,
+    .benefits_acquisitions .items .desc
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*---------------------
+        Design projects
+    ---------------------*/
+    .design_projects .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .design_projects .data
+    {
+        padding-bottom: 72px;
+    }
+
+
+
+    /*-------------------
+        Feedback form
+    -------------------*/
+    .feedback_form
+    {
+        padding: 60px 0;
+    }
+
+
+    .feedback_form .block_title
+    {
+        margin-bottom: 28px;
+    }
+
+
+
+    /*----------------------------
+        Get presentation block
+    ----------------------------*/
+    .get_presentation_block
+    {
+        padding: 60px 0;
+    }
+
+
+    .get_presentation_block .title
+    {
+        font-size: 22px;
+    }
+
+
+    .get_presentation_block .btn
+    {
+        width: 268px;
+        height: 56px;
+        margin-top: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .contacts .phone
+    {
+        width: 100%;
+        margin-top: 8px;
+    }
+
+
+    footer .contacts .messengers .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    footer .socials
+    {
+        width: 100%;
+    }
+
+    footer .socials a + a
+    {
+        margin-left: 12px;
+    }
+
+
+    footer .privacy_policy_link
+    {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #get_presentation
+    {
+        padding: 40px 20px;
+    }
+
+
+    #get_presentation .title
+    {
+        font-size: 17px;
+    }
+
+
+    #get_presentation .answers .row
+    {
+        margin-left: 0;
+    }
+
+    #get_presentation .answers .row > *
+    {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    #get_presentation .prev_btn,
+    #get_presentation .next_btn,
+    #get_presentation .finish_btn
+    {
+        min-width: 0;
+    }
+
+
+
+    #thanks_modal
+    {
+        padding: 40px 20px;
+    }
+
+
+    #thanks_modal .title
+    {
+        font-size: 17px;
+    }
+
+
+    #thanks_modal .form .line
+    {
+        margin-bottom: 20px;
+    }
+
+
+    #thanks_modal .form .submit_btn
+    {
+        width: 100%;
+    }
+}

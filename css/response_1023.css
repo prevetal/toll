@@ -1,0 +1,1023 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 40px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        right: 100%;
+        left: auto;
+
+        width: 325px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 0;
+
+        transition: transform .3s linear;
+    }
+
+    header.show
+    {
+        transform: translateX(100%);
+    }
+
+
+    header .scroll
+    {
+        display: flex;
+        overflow: auto;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 20px 0;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        overscroll-behavior-y: contain;
+    }
+
+    header .scroll > *
+    {
+        width: 100%;
+    }
+
+
+    header .logo
+    {
+        display: none;
+    }
+
+
+    header .menu
+    {
+        display: block;
+
+        width: 100%;
+        margin: 0;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    header .menu_item > a
+    {
+        font-size: 15px;
+    }
+
+
+    header .langs
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    header .callback_btn
+    {
+        margin-top: 8px;
+        margin-left: 0;
+        padding: 8px 24px;
+
+        order: 2;
+    }
+
+
+    header .phone
+    {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+
+        order: 1;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .sub_title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        height: 450px;
+        padding-top: 100px;
+        padding-bottom: 48px;
+    }
+
+
+    .first_section .data
+    {
+        width: 440px;
+    }
+
+
+    .first_section .video_link
+    {
+        right: 24px;
+        bottom: 100px;
+
+        margin-right: 0;
+
+        transform: scale(.6);
+    }
+
+
+    .first_section .scroll_down
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us .block_head
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .about_us .data
+    {
+        width: 100%;
+    }
+
+    .about_us .data .title
+    {
+        font-size: 21px;
+    }
+
+
+    .about_us .items
+    {
+        margin-top: 60px;
+    }
+
+
+    .about_us .items .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .about_us .items .row > *
+    {
+        width: calc(50% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+    .about_us .items .item .number + *
+    {
+        width: calc(100% - 109px);
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .swiper
+    {
+        padding: 0 56px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 18px;
+
+        padding: 16px 20px;
+    }
+
+
+    .services .all_link
+    {
+        font-size: 17px;
+
+        margin-top: 40px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info .feedback
+    {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+
+    .contacts_info .map
+    {
+        height: 450px;
+        margin-top: 48px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .title
+    {
+        font-size: 24px;
+
+        margin-bottom: 24px;
+
+        text-align: left;
+    }
+
+
+
+    /*----------------------------
+        Completed project info
+    ----------------------------*/
+    .completed_project_info .data
+    {
+        width: 100%;
+    }
+
+
+    .completed_project_info .features
+    {
+        font-size: 15px;
+
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .completed_project_info .desc
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------
+        Video
+    -----------*/
+    .video .link .thumb
+    {
+        height: 450px;
+    }
+
+
+    .video .link .icon
+    {
+        transform: scale(.8);
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .swiper
+    {
+        padding: 0 68px;
+    }
+
+
+    .projects .row
+    {
+        margin-bottom: -48px;
+    }
+
+    .projects .row > *
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 48px;
+    }
+
+
+    .projects .project .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .projects .all_link
+    {
+        font-size: 17px;
+
+        margin-top: 40px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head .cont
+    {
+        height: 450px;
+        padding-top: 60px;
+    }
+
+
+
+    /*------------------
+        Secvice info
+    ------------------*/
+    .secvice_info
+    {
+        padding-bottom: 0;
+    }
+
+
+    .secvice_info .data
+    {
+        width: 100%;
+    }
+
+
+    .secvice_info .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+    .secvice_info .block_head .title br
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 68px 0;
+    }
+
+
+    .advantages:before
+    {
+        top: -168px;
+
+        margin-left: -480px;
+
+        transform: scale(.7);
+    }
+
+
+    .advantages .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .advantages .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+
+    /*-------------------
+        To buyer head
+    -------------------*/
+    .to_buyer_head .cont
+    {
+        height: 450px;
+        padding-top: 60px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row > *
+    {
+        width: calc(25% - 24px);
+    }
+
+
+    .steps .step
+    {
+        font-size: 13px;
+    }
+
+    .steps .step .number
+    {
+        line-height: 70px;
+
+        width: 72px;
+        height: 72px;
+        margin-bottom: 12px;
+    }
+
+
+
+    /*------------------
+        Payment info
+    ------------------*/
+    .payment_info .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .payment_info .row
+    {
+        margin-bottom: -48px;
+        margin-left: 0;
+    }
+
+    .payment_info .row > *
+    {
+        width: 100%;
+        margin-bottom: 48px;
+        margin-left: 0;
+    }
+
+
+    .payment_info .item .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .block_head
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .FAQ .accordion
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .review .thumb
+    {
+        width: 300px;
+        height: 320px;
+    }
+
+    .reviews .review .thumb + *
+    {
+        width: calc(100% - 324px);
+    }
+
+
+    .reviews .review .title
+    {
+        font-size: 24px;
+    }
+
+
+    .reviews .review .author
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*----------------
+        About head
+    ----------------*/
+    .about_head .photo
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .about_head .data
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .about_head .data .desc,
+    .about_head .data .desc > * + *
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .data
+    {
+        width: 100%;
+    }
+
+
+    .about_info .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .about_info .text_block > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .about_info .image
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Reasons
+    -------------*/
+    .reasons .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .reasons .row
+    {
+        margin-bottom: -40px;
+    }
+
+    .reasons .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 40px;
+    }
+
+
+    .reasons .item .number
+    {
+        line-height: 100%;
+    }
+
+
+    .reasons .img
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .certs .cert
+    {
+        height: 300px;
+    }
+
+
+    .certs .cert .action
+    {
+        top: 40px;
+    }
+
+
+    .certs .cert .icon
+    {
+        height: 60px;
+    }
+
+
+    .certs .cert .name
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*------------------
+        Project head
+    ------------------*/
+    .project_head .cont
+    {
+        height: auto;
+        padding-top: 148px;
+
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+
+    .project_head .data
+    {
+        width: 100%;
+    }
+
+
+    .project_head .get_presentation
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+
+        width: 100%;
+        margin-top: 100px;
+
+        transform: none;
+    }
+
+
+    .project_head .get_presentation .title
+    {
+        font-size: 24px;
+    }
+
+
+    .project_head .get_presentation .btn
+    {
+        width: 280px;
+        height: 60px;
+        margin-top: 32px;
+    }
+
+
+
+    /*------------------
+        Project desc
+    ------------------*/
+    .project_desc .data
+    {
+        width: 100%;
+    }
+
+
+    .project_desc .features
+    {
+        display: flex;
+
+        width: 100%;
+        margin-top: 40px;
+        padding: 39px;
+
+        text-align: left;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .project_desc .features > * + *
+    {
+        margin-top: 0;
+    }
+
+
+    .project_desc .features .label
+    {
+        font-size: 17px;
+    }
+
+
+    .project_desc .features .val
+    {
+        font-size: 20px;
+
+        margin-top: 8px;
+    }
+
+
+
+    /*-------------
+        Layouts
+    -------------*/
+    .layouts
+    {
+        padding: 0;
+    }
+
+
+    .layouts .swiper
+    {
+        padding-bottom: 80px;
+    }
+
+
+    .layouts .swiper-button-next,
+    .layouts .swiper-button-prev
+    {
+        top: auto;
+        bottom: 0;
+    }
+
+
+    .layouts .image
+    {
+        width: 100%;
+        height: auto;
+        margin-bottom: 32px;
+        padding-bottom: 75%;
+    }
+
+
+    .layouts .text_block
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------------
+        Infrastructure
+    --------------------*/
+    .infrastructure .item
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-----------------
+        Objects map
+    -----------------*/
+    .objects_map
+    {
+        height: 550px;
+    }
+
+
+
+    /*---------------------------
+        Benefits acquisitions
+    ---------------------------*/
+    .benefits_acquisitions .col .title
+    {
+        width: 220px;
+    }
+
+
+    .benefits_acquisitions .items
+    {
+        padding-right: 48px;
+    }
+
+    .benefits_acquisitions .col + .col .items
+    {
+        padding-left: 48px;
+    }
+
+
+    .benefits_acquisitions .items .name,
+    .benefits_acquisitions .items .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*---------------------
+        Design projects
+    ---------------------*/
+    .design_projects .data
+    {
+        width: 100%;
+
+        order: 2;
+    }
+
+
+    .design_projects .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .design_projects .image
+    {
+        width: 100%;
+        height: auto;
+        margin-bottom: 32px;
+        padding-bottom: 75%;
+    }
+
+
+
+    /*----------------------------
+        Get presentation block
+    ----------------------------*/
+    .get_presentation_block .title
+    {
+        font-size: 24px;
+
+        width: 400px;
+    }
+
+
+    .get_presentation_block .btn
+    {
+        width: 280px;
+        height: 60px;
+        margin-top: 32px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont + .cont
+    {
+        margin-top: 40px;
+    }
+
+
+    footer .subscribe
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    footer .col_right
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    footer .cont + .cont .col_right
+    {
+        width: auto;
+        margin-top: 0;
+    }
+
+
+    footer .privacy_policy_link
+    {
+        margin-left: 40px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #get_presentation .title
+    {
+        font-size: 19px;
+
+        margin-bottom: 28px;
+    }
+
+
+    #get_presentation .question
+    {
+        font-size: 17px;
+
+        margin-bottom: 28px;
+        padding: 19px 0;
+    }
+
+
+    #get_presentation .answers .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    #get_presentation .answers .row > *
+    {
+        max-width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    #get_presentation .answers label
+    {
+        padding: 15px;
+    }
+
+
+    #get_presentation .count
+    {
+        display: none;
+    }
+
+
+
+    #thanks_modal .title
+    {
+        font-size: 19px;
+
+        margin-bottom: 28px;
+    }
+
+
+    #thanks_modal .form_title
+    {
+        font-size: 17px;
+
+        margin-bottom: 40px;
+        padding: 19px 0;
+    }
+}

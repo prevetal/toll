@@ -1,0 +1,1040 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 34px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        bottom: -13px;
+    }
+
+    .swiper-button-prev
+    {
+        right: 50%;
+
+        margin-right: 4px;
+    }
+
+    .swiper-button-next
+    {
+        right: auto;
+        left: 50%;
+
+        margin-left: 4px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .mob_header .logo img
+    {
+        height: 48px;
+    }
+
+
+    .mob_header .phone
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .block_head .sub_title
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .form .label
+    {
+        font-size: 14px;
+    }
+
+
+    .form .input
+    {
+        height: 52px;
+        padding: 0 15px;
+    }
+
+
+    .form .submit_btn
+    {
+        padding: 16px 36px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        height: 400px;
+        padding-top: 80px;
+    }
+
+
+    .first_section .data
+    {
+        width: calc(100% - 92px);
+    }
+
+
+    .first_section .video_link
+    {
+        right: 4px;
+        bottom: 32px;
+
+        transform: scale(.5);
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us
+    {
+        padding: 68px 0;
+    }
+
+
+    .about_us .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .about_us .data .title
+    {
+        font-size: 19px;
+    }
+
+
+    .about_us .items
+    {
+        margin-top: 48px;
+    }
+
+
+    .about_us .items .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    .about_us .items .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .about_us .items .item .number
+    {
+        font-size: 40px;
+        line-height: 80px;
+
+        width: 80px;
+        height: 80px;
+
+        background-size: 100% 100%;
+    }
+
+    .about_us .items .item .number + *
+    {
+        width: calc(100% - 100px);
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .swiper
+    {
+        padding: 0;
+    }
+
+
+    .services .swiper-button-next,
+    .services .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .services .swiper-slide
+    {
+        visibility: visible;
+
+        width: 320px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 16px;
+    }
+
+
+    .services .all_link
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .info
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .contacts_info .feedback
+    {
+        margin-top: 40px;
+    }
+
+
+    .contacts_info .map
+    {
+        height: 400px;
+        margin-top: 40px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*----------------------------
+        Completed project info
+    ----------------------------*/
+    .completed_project_info .images .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+
+    /*-----------
+        Video
+    -----------*/
+    .video .link .thumb
+    {
+        height: 400px;
+    }
+
+
+    .video .link .icon
+    {
+        transform: scale(.7);
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects.bg,
+    .projects.bg2
+    {
+        padding: 68px 0;
+    }
+
+
+    .projects.bg2 .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .projects .swiper
+    {
+        padding: 0;
+    }
+
+    .projects .swiper-button-next,
+    .projects .swiper-button-prev
+    {
+        display: none;
+    }
+
+    .projects .swiper-slide
+    {
+        visibility: visible;
+
+        width: 240px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .projects .row
+    {
+        margin-bottom: -40px;
+    }
+
+    .projects .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 40px;
+    }
+
+
+    .projects .project .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        margin-top: 16px;
+    }
+
+
+    .projects .all_link
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head .cont
+    {
+        height: 400px;
+    }
+
+
+    .service_head .service_name
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------------
+        Secvice info
+    ------------------*/
+    .secvice_info .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 60px 0;
+    }
+
+
+    .advantages:before
+    {
+        top: -228px;
+
+        margin-left: -400px;
+
+        transform: scale(.5);
+    }
+
+
+    .advantages .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .advantages .item .number
+    {
+        font-size: 68px;
+
+        top: 16px;
+        left: 16px;
+    }
+
+
+    .advantages .item .name
+    {
+        padding: 28px 16px;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*-------------------
+        To buyer head
+    -------------------*/
+    .to_buyer_head .cont
+    {
+        height: 400px;
+    }
+
+
+    .to_buyer_head .title
+    {
+        width: 100%;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*------------------
+        Payment info
+    ------------------*/
+    .payment_info
+    {
+        padding: 68px 0;
+    }
+
+
+    .payment_info .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .payment_info .row
+    {
+        margin-bottom: -40px;
+    }
+
+    .payment_info .row > *
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .swiper
+    {
+        padding-bottom: 64px;
+    }
+
+
+    .reviews .review .thumb
+    {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        padding-bottom: 100%;
+    }
+
+    .reviews .review .thumb + *
+    {
+        width: 100%;
+    }
+
+
+    .reviews .review .title
+    {
+        font-size: 22px;
+    }
+
+
+    .reviews .review .author
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------
+        About head
+    ----------------*/
+    .about_head
+    {
+        margin-bottom: 68px;
+        padding-top: 124px;
+        padding-bottom: 68px;
+    }
+
+
+    .about_head .photo
+    {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        padding-bottom: 100%;
+    }
+
+
+    .about_head .data
+    {
+        width: 100%;
+    }
+
+
+    .about_head .data .desc,
+    .about_head .data .desc > * + *
+    {
+        line-height: 164%;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .about_info .text_block
+    {
+        line-height: 164%;
+    }
+
+    .about_info .text_block > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-------------
+        Reasons
+    -------------*/
+    .reasons
+    {
+        margin-bottom: 68px;
+        padding: 68px 0;
+    }
+
+
+    .reasons .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .reasons .row
+    {
+        margin-left: 0;
+    }
+
+    .reasons .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .reasons .item .number
+    {
+        margin-bottom: 12px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .partners .swiper-slide
+    {
+        visibility: visible;
+
+        width: 240px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs
+    {
+        padding: 68px 0;
+    }
+
+
+    .certs .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .certs .swiper
+    {
+        padding: 0;
+    }
+
+    .certs .swiper-button-next,
+    .certs .swiper-button-prev
+    {
+        display: none;
+    }
+
+    .certs .swiper-slide
+    {
+        visibility: visible;
+
+        width: 240px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .certs .cert
+    {
+        height: 280px;
+    }
+
+
+
+    /*------------------
+        Project head
+    ------------------*/
+    .project_head .cont
+    {
+        padding-top: 140px;
+    }
+
+
+    .project_head .get_presentation
+    {
+        margin-top: 80px;
+    }
+
+
+    .project_head .get_presentation .title
+    {
+        font-size: 20px;
+    }
+
+
+    .project_head .get_presentation .btn
+    {
+        margin-top: 28px;
+    }
+
+
+
+    /*------------------
+        Project desc
+    ------------------*/
+    .project_desc .features
+    {
+        margin-top: 32px;
+        padding: 23px;
+    }
+
+
+    .project_desc .features > *
+    {
+        width: calc(50% - 10px);
+    }
+
+    .project_desc .features > *:nth-child(2) + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .project_desc .features .label
+    {
+        font-size: 16px;
+    }
+
+
+    .project_desc .features .val
+    {
+        font-size: 19px;
+    }
+
+
+
+    /*-------------
+        Layouts
+    -------------*/
+    .layouts .swiper
+    {
+        padding-bottom: 72px;
+    }
+
+
+    .layouts .image
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .layouts .swiper-button-next,
+    .layouts .swiper-button-prev
+    {
+        margin: 0 8px;
+    }
+
+
+
+    /*--------------------
+        Infrastructure
+    --------------------*/
+    .infrastructure .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .infrastructure .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+    .infrastructure .item
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*-----------------
+        Objects map
+    -----------------*/
+    .objects_map
+    {
+        height: 500px;
+        padding: 68px 0;
+    }
+
+
+
+    /*---------------------------
+        Benefits acquisitions
+    ---------------------------*/
+    .benefits_acquisitions
+    {
+        padding: 68px 0;
+    }
+
+
+    .benefits_acquisitions .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .benefits_acquisitions .row:before
+    {
+        display: none;
+    }
+
+
+    .benefits_acquisitions .col
+    {
+        width: 100%;
+    }
+
+    .benefits_acquisitions .col + .col
+    {
+        margin-top: 48px;
+    }
+
+
+    .benefits_acquisitions .col .title,
+    .benefits_acquisitions .col + .col .title
+    {
+        font-size: 17px;
+
+        width: 100%;
+        margin-bottom: 24px;
+
+        text-align: left;
+    }
+
+
+    .benefits_acquisitions .items
+    {
+        padding-right: 0;
+    }
+
+    .benefits_acquisitions .col + .col .items
+    {
+        padding-left: 0;
+    }
+
+    .benefits_acquisitions .items > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .benefits_acquisitions .items .name,
+    .benefits_acquisitions .items .desc
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*---------------------
+        Design projects
+    ---------------------*/
+    .design_projects .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .design_projects .image
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-------------------
+        Feedback form
+    -------------------*/
+    .feedback_form
+    {
+        padding: 68px 0;
+    }
+
+
+    .feedback_form .block_title
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*----------------------------
+        Get presentation block
+    ----------------------------*/
+    .get_presentation_block
+    {
+        padding: 68px 0;
+    }
+
+
+    .get_presentation_block .btn
+    {
+        margin-top: 28px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .subscribe .title
+    {
+        font-size: 13px;
+
+        margin-bottom: 8px;
+    }
+
+
+
+    footer .cont + .cont .col_right
+    {
+        width: 100%;
+    }
+
+
+
+    footer .copyright
+    {
+        font-size: 13px;
+
+        width: 100%;
+        margin-top: 16px;
+
+        order: 3;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal_title
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .modal .form
+    {
+        width: 360px;
+    }
+
+
+    .modal .form .line
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    #get_presentation
+    {
+        padding: 40px 24px;
+    }
+
+
+    #get_presentation .title
+    {
+        font-size: 18px;
+
+        margin-bottom: 24px;
+    }
+
+
+    #get_presentation .question
+    {
+        font-size: 16px;
+
+        margin-bottom: 24px;
+        padding: 15px 0;
+    }
+
+
+    #get_presentation .answers .row > *
+    {
+        max-width: calc(50% - 24px);
+    }
+
+
+
+    #thanks_modal
+    {
+        padding: 40px 24px;
+    }
+
+
+    #thanks_modal .title
+    {
+        font-size: 18px;
+
+        margin-bottom: 24px;
+    }
+
+
+    #thanks_modal .form_title
+    {
+        font-size: 16px;
+
+        margin-bottom: 32px;
+        padding: 15px 0;
+    }
+
+
+    #thanks_modal .form .submit{
+        padding: 0;
+    }
+}

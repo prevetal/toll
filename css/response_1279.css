@@ -1,0 +1,1024 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 44px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        top: auto;
+        bottom: 0;
+
+        width: 52px;
+        height: 52px;
+    }
+
+    .swiper-button-prev
+    {
+        right: 64px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: 24px;
+        right: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        height: 48px;
+    }
+
+
+    header .menu
+    {
+        margin-left: 32px;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 24px;
+    }
+
+
+    header .langs > * + *
+    {
+        margin-left: 12px;
+    }
+
+    header .langs a
+    {
+        font-size: 13px;
+        line-height: 31px;
+
+        width: 32px;
+        height: 32px;
+    }
+
+
+    header .callback_btn
+    {
+        font-size: 13px;
+
+        margin-left: 20px;
+        padding: 8px 16px;
+    }
+
+
+    header .phone
+    {
+        font-size: 16px;
+
+        margin-left: 16px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .block_head .sub_title
+    {
+        font-size: 22px;
+
+        margin-top: 20px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        height: 56px;
+        padding: 0 19px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        line-height: 172%;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+
+
+    .first_section .data
+    {
+        width: 480px;
+    }
+
+
+    .first_section .video_link
+    {
+        bottom: 124px;
+
+        margin-right: -320px;
+
+        transform: scale(.7);
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us
+    {
+        padding: 80px 0;
+    }
+
+
+    .about_us .data .title
+    {
+        font-size: 23px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .about_us .items
+    {
+        width: 100%;
+        margin-top: 68px;
+    }
+
+
+    .about_us .items .row
+    {
+        margin-bottom: -48px;
+        margin-left: -60px;
+    }
+
+    .about_us .items .row > *
+    {
+        width: calc(50% - 60px);
+        margin-bottom: 48px;
+        margin-left: 60px;
+    }
+
+
+    .about_us .items .item
+    {
+        line-height: 164%;
+    }
+
+
+    .about_us .items .item .number + *
+    {
+        width: calc(100% - 112px);
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .swiper-button-prev
+    {
+        left: -12px;
+    }
+
+    .services .swiper-button-next
+    {
+        right: -12px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 22px;
+    }
+
+
+    .services .all_link
+    {
+        font-size: 18px;
+
+        margin-top: 48px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: 348px;
+    }
+
+
+    .contacts_info .info
+    {
+        font-size: 16px;
+    }
+
+
+    .contacts_info .feedback
+    {
+        width: 480px;
+        margin-top: 16px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .title
+    {
+        font-size: 28px;
+
+        margin-bottom: 32px;
+    }
+
+
+
+    /*----------------------------
+        Completed project info
+    ----------------------------*/
+    .completed_project_info .features
+    {
+        font-size: 16px;
+
+        margin-top: 48px;
+    }
+
+    .completed_project_info .features > * + *
+    {
+        margin-top: 16px;
+        padding-top: 16px;
+    }
+
+
+    .completed_project_info .desc
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects.bg,
+    .projects.bg2
+    {
+        padding: 80px 0;
+    }
+
+
+    .projects.bg2 .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .projects .swiper
+    {
+        padding: 0 72px;
+    }
+
+
+    .projects .swiper-button-next,
+    .projects .swiper-button-prev
+    {
+        margin-top: -26px;
+    }
+
+
+    .projects .project .name
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .projects .all_link
+    {
+        font-size: 18px;
+
+        margin-top: 48px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 80px 0;
+    }
+
+
+    .advantages:before
+    {
+        margin-left: -600px;
+    }
+
+
+    .advantages .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .advantages .item .number
+    {
+        font-size: 80px;
+
+        top: 24px;
+        left: 24px;
+    }
+
+
+    .advantages .item .name
+    {
+        padding: 40px 24px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .step
+    {
+        font-size: 14px;
+    }
+
+
+    .steps .step .number
+    {
+        line-height: 78px;
+
+        width: 80px;
+        height: 80px;
+        margin-bottom: 16px;
+    }
+
+
+
+    /*------------------
+        Payment info
+    ------------------*/
+    .payment_info .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .payment_info .item .title
+    {
+        font-size: 19px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .block_head
+    {
+        width: 360px;
+    }
+
+
+    .FAQ .accordion
+    {
+        width: calc(100% - 440px);
+        margin-right: 0;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .review .thumb
+    {
+        width: 360px;
+        height: 392px;
+    }
+
+    .reviews .review .thumb + *
+    {
+        width: calc(100% - 384px);
+    }
+
+
+    .reviews .review .title
+    {
+        font-size: 26px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .reviews .review .author
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*----------------
+        About head
+    ----------------*/
+    .about_head
+    {
+        margin-bottom: 80px;
+        padding-top: 172px;
+        padding-bottom: 80px;
+    }
+
+
+    .about_head .data .desc,
+    .about_head .data .desc > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .about_info .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .about_info .text_block > * + *
+    {
+        margin-top: 28px;
+    }
+
+
+    .about_info .image
+    {
+        width: calc(50% - 24px);
+        height: auto;
+    }
+
+
+
+    /*-------------
+        Reasons
+    -------------*/
+    .reasons
+    {
+        margin-bottom: 80px;
+        padding: 80px 0;
+    }
+
+
+    .reasons .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .reasons .row
+    {
+        margin-bottom: -48px;
+    }
+
+    .reasons .row > *
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .reasons .img
+    {
+        width: calc(100% - 640px);
+
+        filter: brightness(75%);
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .benefits .block_head
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .benefits .text_block
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .partners .item
+    {
+        height: 100px;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs
+    {
+        padding: 80px 0;
+    }
+
+
+    .certs .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .certs .cert
+    {
+        height: 340px;
+        padding: 19px;
+    }
+
+
+    .certs .cert .action
+    {
+        top: 48px;
+        left: 20px;
+    }
+
+
+    .certs .cert .icon
+    {
+        top: 20px;
+        right: 20px;
+
+        height: 72px;
+    }
+
+
+    .certs .cert .name
+    {
+        font-size: 16px;
+
+        width: 100%;
+    }
+
+
+
+    /*------------------
+        Project head
+    ------------------*/
+    .project_head .cont
+    {
+        padding-bottom: 68px;
+    }
+
+
+    .project_head .data
+    {
+        width: 480px;
+    }
+
+
+    .project_head .get_presentation
+    {
+        width: 440px;
+    }
+
+
+    .project_head .get_presentation .title
+    {
+        font-size: 25px;
+    }
+
+
+    .project_head .get_presentation .btn
+    {
+        width: 300px;
+        height: 68px;
+        margin-top: 40px;
+    }
+
+
+
+    /*------------------
+        Project desc
+    ------------------*/
+    .project_desc .data
+    {
+        width: calc(100% - 360px);
+    }
+
+
+    .project_desc .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .project_desc .features
+    {
+        width: 320px;
+        padding: 47px;
+    }
+
+
+    .project_desc .features .label
+    {
+        font-size: 18px;
+    }
+
+
+    .project_desc .features .val
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-------------
+        Layouts
+    -------------*/
+    .layouts .image
+    {
+        width: calc(50% - 20px);
+        height: 412px;
+    }
+
+
+    .layouts .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .layouts .text_block
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*--------------------
+        Infrastructure
+    --------------------*/
+    .infrastructure .block_head
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .infrastructure .row
+    {
+        width: calc(100% + 24px);
+        margin-left: -24px;
+    }
+
+
+    .infrastructure .item
+    {
+        font-size: 19px;
+    }
+
+
+
+    /*-----------------
+        Objects map
+    -----------------*/
+    .objects_map
+    {
+        padding: 80px 0;
+    }
+
+
+
+    /*---------------------------
+        Benefits acquisitions
+    ---------------------------*/
+    .benefits_acquisitions
+    {
+        padding: 80px 0;
+    }
+
+
+    .benefits_acquisitions .row:before
+    {
+        top: 0;
+
+        height: 100%;
+    }
+
+
+    .benefits_acquisitions .col .title
+    {
+        width: 240px;
+    }
+
+
+    .benefits_acquisitions .items
+    {
+        padding-right: 60px;
+    }
+
+    .benefits_acquisitions .col + .col .items
+    {
+        padding-left: 60px;
+    }
+
+
+    .benefits_acquisitions .items > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*---------------------
+        Design projects
+    ---------------------*/
+    .design_projects .swiper-button-next
+    {
+        left: 64px;
+    }
+
+
+    .design_projects .data
+    {
+        width: calc(50% - 20px);
+        padding-bottom: 80px;
+    }
+
+
+    .design_projects .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .design_projects .image
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*-------------------
+        Feedback form
+    -------------------*/
+    .feedback_form
+    {
+        padding: 80px 0;
+    }
+
+
+    .feedback_form .block_title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .feedback_form .form
+    {
+        width: 560px;
+    }
+
+
+
+    /*----------------------------
+        Get presentation block
+    ----------------------------*/
+    .get_presentation_block
+    {
+        padding: 80px 0;
+    }
+
+
+    .get_presentation_block .title
+    {
+        font-size: 25px;
+
+        width: 440px;
+    }
+
+
+    .get_presentation_block .btn
+    {
+        width: 300px;
+        height: 68px;
+        margin-top: 40px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont + .cont
+    {
+        margin-top: 60px;
+    }
+
+
+    footer .logo img
+    {
+        height: 52px;
+    }
+
+
+    footer .links
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 560px;
+    }
+
+
+    .modal_title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .modal .form
+    {
+        width: 400px;
+    }
+
+
+
+    #get_presentation .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 32px;
+    }
+
+
+    #get_presentation .question
+    {
+        margin-bottom: 32px;
+    }
+
+
+    #get_presentation .answers .row
+    {
+        margin-bottom: -28px;
+        margin-left: -28px;
+    }
+
+    #get_presentation .answers .row > *
+    {
+        max-width: calc(25% - 28px);
+        margin-bottom: 28px;
+        margin-left: 28px;
+    }
+
+
+    #get_presentation .answers label
+    {
+        padding: 19px;
+    }
+
+
+    #get_presentation .answers label .name
+    {
+        font-size: 14px;
+    }
+
+
+    #get_presentation .count
+    {
+        font-size: 19px;
+
+        right: -40px;
+        bottom: 0;
+
+        width: 88px;
+        height: 88px;
+    }
+
+
+
+    #thanks_modal .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 32px;
+    }
+
+
+    #thanks_modal .form_title
+    {
+        margin-bottom: 48px;
+    }
+
+
+    #thanks_modal .form .input
+    {
+        height: 56px;
+    }
+
+
+    #thanks_modal .img
+    {
+        display: none;
+    }
+}
