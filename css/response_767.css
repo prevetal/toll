@@ -230,6 +230,18 @@
     }
 
 
+    .services .row
+    {
+        margin-left: 0;
+    }
+
+    .services .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
     .services .service .name
     {
         font-size: 16px;
@@ -1034,7 +1046,8 @@
     }
 
 
-    #thanks_modal .form .submit{
+    #thanks_modal .form .submit
+    {
         padding: 0;
     }
 }

@@ -3433,6 +3433,20 @@ header .phone a
 }
 
 
+.services .row
+{
+    margin-bottom: -24px;
+    margin-left: -24px;
+}
+
+.services .row > *
+{
+    width: calc(50% - 24px);
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+
+
 .services .service
 {
     color: #fff;
