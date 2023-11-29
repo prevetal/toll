@@ -361,6 +361,13 @@
     }
 
 
+    .projects .project .thumb .symbol
+    {
+        width: 140px;
+        height: 168px;
+    }
+
+
     .projects .project .name
     {
         font-size: 26px;

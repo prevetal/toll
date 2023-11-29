@@ -346,6 +346,13 @@
     }
 
 
+    .projects .project .thumb .symbol
+    {
+        width: 120px;
+        height: 124px;
+    }
+
+
     .projects .project .name
     {
         font-size: 20px;
@@ -657,12 +664,6 @@
     /*------------------
         Project head
     ------------------*/
-    .project_head .cont
-    {
-        padding-bottom: 68px;
-    }
-
-
     .project_head .data
     {
         width: 480px;

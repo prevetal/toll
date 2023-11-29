@@ -365,6 +365,13 @@
     }
 
 
+    .projects .project .thumb .symbol
+    {
+        width: 100px;
+        height: 104px;
+    }
+
+
     .projects .project .name
     {
         font-size: 18px;
@@ -711,7 +718,16 @@
     ------------------*/
     .project_head .cont
     {
-        padding-top: 140px;
+        padding-top: 100px;
+    }
+
+
+    .project_head .data .symbol
+    {
+        width: 160px;
+        height: 177px;
+        margin-bottom: 0;
+        margin-left: -28px;
     }
 
 

@@ -700,7 +700,7 @@
     .project_head .cont
     {
         height: auto;
-        padding-top: 148px;
+        padding-top: 100px;
 
         align-items: flex-start;
         align-content: flex-start;
@@ -710,6 +710,14 @@
     .project_head .data
     {
         width: 100%;
+    }
+
+
+    .project_head .data .symbol
+    {
+        width: 208px;
+        height: 230px;
+        margin-left: -40px;
     }
 
 

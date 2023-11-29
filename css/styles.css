@@ -1577,6 +1577,11 @@ header .phone a
     text-decoration: none;
 }
 
+.projects .swiper .project
+{
+    color: #fff;
+}
+
 
 .projects .project .thumb
 {
@@ -1595,7 +1600,7 @@ header .phone a
 }
 
 
-.projects .project .thumb img
+.projects .project .thumb > img
 {
     position: absolute;
     top: 0;
@@ -1610,10 +1615,37 @@ header .phone a
 }
 
 
+.projects .project .thumb .symbol
+{
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+
+    width: 196px;
+    height: 216px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.projects .project .thumb .symbol img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
 .projects .project .name
 {
     font-size: 32px;
-    line-height: 31px;
+    font-weight: 300;
 
     width: 288px;
     max-width: 100%;
@@ -3592,6 +3624,30 @@ header .phone a
 {
     width: 655px;
     max-width: 100%;
+}
+
+
+.project_head .data .symbol
+{
+    display: flex;
+
+    width: 314px;
+    height: 347px;
+    margin-bottom: 36px;
+    margin-left: -73px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.project_head .data .symbol img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
 }
 
 

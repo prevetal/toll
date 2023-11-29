@@ -742,13 +742,22 @@
     .project_head .cont
     {
         padding-top: 120px;
-        padding-bottom: 80px;
+        padding-bottom: 48px;
     }
 
 
     .project_head .data
     {
         width: 560px;
+    }
+
+
+    .project_head .data .symbol
+    {
+        width: 240px;
+        height: 265px;
+        margin-bottom: 20px;
+        margin-left: -48px;
     }
 
 
