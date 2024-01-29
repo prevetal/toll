@@ -979,10 +979,10 @@
     {
         font-size: 13px;
 
+        order: 3;
+
         width: 100%;
         margin-top: 16px;
-
-        order: 3;
     }
 
 

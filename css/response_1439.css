@@ -566,8 +566,8 @@
 
     .about_head .cont
     {
-        align-items: stretch;
         align-content: stretch;
+        align-items: stretch;
     }
 
 
@@ -803,10 +803,10 @@
 
     .project_desc .features
     {
+        align-self: flex-end;
+
         width: 440px;
         padding: 59px;
-
-        align-self: flex-end;
     }
 
 

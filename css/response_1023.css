@@ -54,6 +54,10 @@
     {
         display: flex;
         overflow: auto;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: flex-start;
 
         height: 100%;
         min-height: -moz-available;
@@ -61,10 +65,6 @@
         min-height:         fill-available;
         padding: 20px 0;
 
-        justify-content: flex-start;
-        align-items: flex-start;
-        align-content: flex-start;
-        flex-wrap: wrap;
         overscroll-behavior-y: contain;
     }
 
@@ -110,21 +110,21 @@
 
     header .callback_btn
     {
+        order: 2;
+
         margin-top: 8px;
         margin-left: 0;
         padding: 8px 24px;
-
-        order: 2;
     }
 
 
     header .phone
     {
+        order: 1;
+
         width: 100%;
         margin-top: 20px;
         margin-left: 0;
-
-        order: 1;
     }
 
 
@@ -699,11 +699,11 @@
     ------------------*/
     .project_head .cont
     {
+        align-content: flex-start;
+        align-items: flex-start;
+
         height: auto;
         padding-top: 100px;
-
-        align-items: flex-start;
-        align-content: flex-start;
     }
 
 
@@ -762,17 +762,16 @@
     .project_desc .features
     {
         display: flex;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
         width: 100%;
         margin-top: 40px;
         padding: 39px;
 
         text-align: left;
-
-        justify-content: space-between;
-        align-items: flex-start;
-        align-content: flex-start;
-        flex-wrap: wrap;
     }
 
     .project_desc .features > * + *
@@ -888,9 +887,9 @@
     ---------------------*/
     .design_projects .data
     {
-        width: 100%;
-
         order: 2;
+
+        width: 100%;
     }
 
 
