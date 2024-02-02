@@ -435,8 +435,6 @@
 
     .advantages:before
     {
-        top: -124px;
-
         margin-left: -720px;
     }
 
@@ -697,7 +695,7 @@
 
     .reasons .row
     {
-        width: 900px;
+        width: 64%;
         margin-bottom: -64px;
     }
 
@@ -719,8 +717,10 @@
         top: 240px;
         right: 0;
 
-        width: calc(100% - 960px);
+        width: auto;
+        max-width: calc(100% - 960px);
         height: auto;
+        max-height: calc(100% - 132px);
         margin-right: 0;
     }
 
@@ -873,7 +873,7 @@
     ------------------*/
     .project_desc .data
     {
-        width: calc(100% - 640px);
+        width: calc(100% - 540px);
     }
 
 
@@ -885,8 +885,8 @@
 
     .project_desc .features
     {
-        width: 540px;
-        padding: 100px;
+        width: 480px;
+        padding: 59px 100px;
     }
 
 

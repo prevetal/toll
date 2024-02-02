@@ -2172,7 +2172,7 @@ header .phone a
 .advantages:before
 {
     position: absolute;
-    top: -162px;
+    top: -323px;
     left: 50%;
 
     display: block;
@@ -3701,6 +3701,13 @@ header .phone a
 /*------------------
     Project desc
 ------------------*/
+.project_desc .cont
+{
+    align-content: stretch;
+    align-items: stretch;
+}
+
+
 .project_desc .data
 {
     width: 853px;
@@ -3716,16 +3723,27 @@ header .phone a
 
 .project_desc .features
 {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
     width: 606px;
     max-width: 100%;
     margin-left: auto;
-    padding: 121px 154px;
+    padding: 59px 139px;
 
     text-align: right;
 
     border: 1px dashed #bcbcbc;
 }
 
+
+.project_desc .features > *
+{
+    width: 100%;
+}
 
 .project_desc .features > * + *
 {
@@ -3747,9 +3765,9 @@ header .phone a
 {
     font-size: 36px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 120%;
 
-    margin-top: 10px;
+    margin-top: 12px;
 
     color: #1d1d1d;
 }
@@ -3922,6 +3940,7 @@ header .phone a
 {
     display: block;
 
+    width: 40%;
     max-width: 100%;
     max-height: 100%;
 }

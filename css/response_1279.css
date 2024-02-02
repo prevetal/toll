@@ -380,6 +380,8 @@
 
     .advantages:before
     {
+        top: -224px;
+
         margin-left: -600px;
     }
 
@@ -568,7 +570,7 @@
 
     .reasons .img
     {
-        width: calc(100% - 640px);
+        max-width: calc(100% - 700px);
 
         filter: brightness(75%);
     }

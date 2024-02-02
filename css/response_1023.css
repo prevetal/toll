@@ -423,8 +423,6 @@
 
     .advantages:before
     {
-        top: -168px;
-
         margin-left: -480px;
 
         transform: scale(.7);
@@ -627,6 +625,7 @@
 
     .reasons .row
     {
+        width: calc(100% + 20px);
         margin-bottom: -40px;
     }
 
@@ -772,6 +771,13 @@
         padding: 39px;
 
         text-align: left;
+    }
+
+
+    .project_desc .features > *
+    {
+        width: auto;
+        max-width: calc(33.333% - 20px);
     }
 
     .project_desc .features > * + *
